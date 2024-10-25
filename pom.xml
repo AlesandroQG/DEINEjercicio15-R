@@ -16,6 +16,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.alesandro</groupId>
+            <artifactId>Ejercicio15-Q</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
             <version>22.0.1</version>
