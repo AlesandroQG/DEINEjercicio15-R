@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import com.alesandro.ejercicio15q.Temporizador?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
@@ -12,10 +13,12 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-
 <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <FlowPane prefHeight="100.0" />
+      <FlowPane alignment="BOTTOM_RIGHT">
+         <children>
+            <Temporizador fx:id="temporizador" />
+         </children></FlowPane>
       <TabPane tabClosingPolicy="UNAVAILABLE">
         <tabs>
           <Tab text="CUESTIONARIO  1">
@@ -64,7 +67,7 @@
                         </GridPane>
                         <FlowPane alignment="CENTER">
                            <children>
-                              <Button fx:id="btnEnviar1" mnemonicParsing="false" text="Enviar" />
+                              <Button fx:id="btnEnviar1" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
                            </children>
                            <VBox.margin>
                               <Insets bottom="5.0" top="20.0" />
@@ -120,7 +123,7 @@
                           </GridPane>
                           <FlowPane alignment="CENTER">
                               <children>
-                                  <Button fx:id="btnEnviar2" mnemonicParsing="false" text="Enviar" />
+                                  <Button fx:id="btnEnviar2" mnemonicParsing="false" onAction="#enviar" text="Enviar" />
                               </children>
                               <VBox.margin>
                                   <Insets bottom="5.0" top="20.0" />

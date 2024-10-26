@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3878bf58-c8ec-4d77-b3ec-5efb23c5fa7b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alesandro/ejercicio15r/FormularioTemporizadorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alesandro/ejercicio15r/FormularioTemporizadorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/FormularioTemporizador.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/FormularioTemporizador.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
