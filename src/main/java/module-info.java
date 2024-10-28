@@ -1,7 +1,7 @@
 module com.alesandro.ejercicio15r {
     requires javafx.fxml;
-    requires com.alesandro.ejercicio15q;
     requires javafx.controls;
+    requires com.alesandro.ejercicio15q;
 
 
     opens com.alesandro.ejercicio15r to javafx.fxml;

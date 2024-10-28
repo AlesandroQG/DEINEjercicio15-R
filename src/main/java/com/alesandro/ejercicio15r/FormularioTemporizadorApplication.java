@@ -22,7 +22,7 @@ public class FormularioTemporizadorApplication extends Application {
      */
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(FormularioTemporizadorApplication.class.getResource("/fxml/FormularioTemporizador.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(FormularioTemporizadorApplication.class.getResource("FormularioTemporizador.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         stage.setTitle("Formulario con Temporizador");
         stage.setScene(scene);

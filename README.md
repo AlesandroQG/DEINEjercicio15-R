@@ -7,5 +7,5 @@ La estructura del proyecto es la siguiente:
     - `java > com.alesandro.ejercicio15r`:
         - `FormularioTemporizadorApplication.java`: Clase que lanza la aplicación
         - `FormularioTemporizadorController.java`: Clase que controla los eventos de la ventana principal de la aplicación
-    - `resources > fxml`:
+    - `resources > com.alesandro.ejercicio15r`:
         - `FormularioTemporizador.fxml`: Ventana principal de la aplicación

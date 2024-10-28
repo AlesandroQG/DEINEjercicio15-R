@@ -16,6 +16,8 @@ import java.util.ResourceBundle;
  * Clase que controla los eventos de la ventana
  */
 public class FormularioTemporizadorController implements Initializable {
+    private static final int SEGUNDOS = 20;
+
     @FXML // fx:id="temporizador"
     private Temporizador temporizador; // Value injected by FXMLLoader
 
@@ -34,8 +36,8 @@ public class FormularioTemporizadorController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         // Temporizador
-        if (temporizador.setSegundos(20)) {
-            temporizador.iniciar();
+        if (temporizador.setSegundos(SEGUNDOS)) {
+            temporizador.iniciar(); // Inicia el temporizador
             temporizador.finProperty().addListener(new ChangeListener<Object>() {
                 @Override
                 public void changed(ObservableValue<? extends Object> arg0, Object arg1, Object arg2) {
@@ -56,7 +58,9 @@ public class FormularioTemporizadorController implements Initializable {
      */
     @FXML
     void enviar(ActionEvent event) {
+        temporizador.detener();
         confirmacion("Enviado");
+        deshabilitarBotones();
     }
 
     /**
